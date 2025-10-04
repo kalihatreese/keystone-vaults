@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Keystone Kash Store</title>
+</head>
+<body>
+  <h1>Keystone Kash • Checkout</h1>
+
+  <!-- PayPal SDK with Live Client ID -->
+  <script src="https://www.paypal.com/sdk/js?client-id=Af0wdaIxuAbVgcTGBgU195NJlwYwfBWS_RIx7IHjEmVNI9mfBOtFtzCaniUiPImPJL76UgryjcLs4mST&currency=USD&components=buttons&disable-funding=card,bancontact,blik,eps,giropay,ideal,mercadopago,mybank,oxxo,p24,sofort,venmo"></script>
+
+  <div id="paypal-button-container"></div>
+  <script>
+    paypal.Buttons().render('#paypal-button-container');
+  </script>
+</body>
+</html>
